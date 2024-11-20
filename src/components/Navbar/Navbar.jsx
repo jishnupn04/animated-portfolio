@@ -21,13 +21,25 @@ function Navbar() {
             JISHNU NEEL
           </motion.span>
           <div className="socials">
-            <a>
+            <a
+              href="https://github.com/jishnupn04"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/github2.png" alt="GitHub" />
             </a>
-            <a>
+            <a
+              href="linkedin.com/in/jishnu-pn-6822762a5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/linkedin.png" alt="LinkedIn" />
             </a>
-            <a>
+            <a
+              href="https://www.instagram.com/jishnu_neel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="/instagram.png" alt="Instagram" />
             </a>
           </div>
