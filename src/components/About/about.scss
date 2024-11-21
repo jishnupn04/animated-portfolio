@@ -1,0 +1,41 @@
+.about {
+  max-width: 1366px;
+  height: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  .education {
+    .container {
+      //   padding: 0%;
+      .time {
+        color: #e6e9af;
+        font-size: 20px;
+      }
+      .course {
+        font-weight: bold;
+      }
+      .clg {
+        font-size: 12px;
+        opacity: 80%;
+      }
+    }
+  }
+  .experience {
+    .container {
+      //   padding: 0%;
+      .time {
+        color: #e6e9af;
+        font-size: 18px;
+      }
+      .role {
+        font-weight: bold;
+      }
+      .company {
+        font-size: 12px;
+        opacity: 80%;
+      }
+    }
+  }
+}

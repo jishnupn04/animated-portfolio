@@ -2,6 +2,7 @@
 .hero {
   position: relative; /* Establish relative positioning for child elements */
   height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #0c0c1d, #111132);
   overflow: hidden; /* Hide any overflowing content */
 
   h2 {
