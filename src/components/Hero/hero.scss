@@ -65,8 +65,7 @@
 
       img {
         z-index: 4;
-        // background-color: white;
-        mix-blend-mode: screen; /* Options: screen, overlay, lighten, darken, etc. */
+        mix-blend-mode: luminosity; /* Options: screen, overlay, lighten, darken, etc. */
         opacity: 1;
         max-width: 100%;
         height: auto;
@@ -83,7 +82,7 @@
     font-size: 50vh;
     bottom: -120px;
     white-space: nowrap;
-    color: rgba(0, 0, 0, 0.123);
+    color: rgba(77, 74, 74, 0.123);
     z-index: 0; /* Place behind other content but above the background */
     pointer-events: none; /* Disable interactions to ensure buttons remain functional */
   }
