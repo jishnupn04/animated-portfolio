@@ -21,27 +21,48 @@ function Navbar() {
             JISHNU NEEL
           </motion.span>
           <div className="socials">
-            <a
+            <motion.a
               href="https://github.com/jishnupn04"
               target="_blank"
               rel="noopener noreferrer"
+              whileHover={{
+                scale: 1.4,
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+              }}
             >
               <img src="/github2.png" alt="GitHub" />
-            </a>
-            <a
-              href="linkedin.com/in/jishnu-pn-6822762a5"
+            </motion.a>
+            <motion.a
+              whileHover={{
+                scale: 1.4,
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+              }}
+              href="https://linkedin.com/in/jishnu-pn-6822762a5"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/linkedin.png" alt="LinkedIn" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+              whileHover={{
+                scale: 1.4,
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 400,
+              }}
               href="https://www.instagram.com/jishnu_neel/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/instagram.png" alt="Instagram" />
-            </a>
+            </motion.a>
           </div>
         </div>
       </motion.div>
