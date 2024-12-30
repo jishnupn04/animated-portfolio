@@ -23,7 +23,6 @@ const variants = {
 };
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
 
   return (
     <motion.div

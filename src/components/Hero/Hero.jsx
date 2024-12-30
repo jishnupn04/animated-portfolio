@@ -50,7 +50,7 @@ const heroVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration:1,
+      duration: 1,
     },
   },
 };
@@ -77,16 +77,19 @@ const Hero = () => {
                 type="button"
                 class="btn btn-outline-light"
                 variants={textVariants}
+                onClick={() => window.open('/resume.pdf', '_blank')}
               >
                 Download Resume
               </motion.button>
-              <motion.button
-                type="button"
-                class="btn btn-light"
-                variants={textVariants}
-              >
-                Contact Me!
-              </motion.button>
+              <a href="#Contact" className="z-1">
+                <motion.button
+                  type="button"
+                  class="btn btn-light"
+                  variants={textVariants}
+                >
+                  Contact Me!
+                </motion.button>
+              </a>
             </motion.div>
             <motion.img
               src="/scroll.png"
@@ -95,7 +98,13 @@ const Hero = () => {
             />
           </motion.div>
           <div className="col-md-6 image">
-            <motion.img src="/Jishnu3.png" alt="Jishnu" variants={heroVariants} initial="initial" animate="animate"/>
+            <motion.img
+              src="/Jishnu3.png"
+              alt="Jishnu"
+              variants={heroVariants}
+              initial="initial"
+              animate="animate"
+            />
           </div>
           <motion.div
             className="SlidingTextContainer"
