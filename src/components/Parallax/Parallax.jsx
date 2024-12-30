@@ -25,7 +25,7 @@ const Parallax = ({ type }) => {
         {type === "about" ? (
           <h1>About Me</h1>
         ) : (
-          <h1>My current works</h1>
+          <h1>Stuffs I Did</h1>
         )}
       </motion.div>
       <div className="mountains"></div>
